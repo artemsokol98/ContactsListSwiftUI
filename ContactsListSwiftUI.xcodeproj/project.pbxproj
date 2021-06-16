@@ -11,6 +11,12 @@
 		7122FDCF2678DF4300130D71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7122FDCE2678DF4300130D71 /* ContentView.swift */; };
 		7122FDD12678DF4400130D71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7122FDD02678DF4400130D71 /* Assets.xcassets */; };
 		7122FDD42678DF4400130D71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7122FDD32678DF4400130D71 /* Preview Assets.xcassets */; };
+		7122FDDC2678E06400130D71 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7122FDDB2678E06400130D71 /* DataManager.swift */; };
+		7122FDDE2679037C00130D71 /* ContactsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7122FDDD2679037C00130D71 /* ContactsModel.swift */; };
+		7122FDE02679FFAE00130D71 /* ContactDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7122FDDF2679FFAE00130D71 /* ContactDetails.swift */; };
+		7122FDE2267A0CE700130D71 /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7122FDE1267A0CE700130D71 /* Numbers.swift */; };
+		7122FDE4267A4AAB00130D71 /* ContactsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7122FDE3267A4AAB00130D71 /* ContactsList.swift */; };
+		7122FDE6267A51E700130D71 /* PhoneAndEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7122FDE5267A51E700130D71 /* PhoneAndEmail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		7122FDD02678DF4400130D71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7122FDD32678DF4400130D71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7122FDD52678DF4400130D71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7122FDDB2678E06400130D71 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		7122FDDD2679037C00130D71 /* ContactsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsModel.swift; sourceTree = "<group>"; };
+		7122FDDF2679FFAE00130D71 /* ContactDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetails.swift; sourceTree = "<group>"; };
+		7122FDE1267A0CE700130D71 /* Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numbers.swift; sourceTree = "<group>"; };
+		7122FDE3267A4AAB00130D71 /* ContactsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsList.swift; sourceTree = "<group>"; };
+		7122FDE5267A51E700130D71 /* PhoneAndEmail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAndEmail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,12 @@
 			children = (
 				7122FDCC2678DF4300130D71 /* ContactsListSwiftUIApp.swift */,
 				7122FDCE2678DF4300130D71 /* ContentView.swift */,
+				7122FDE3267A4AAB00130D71 /* ContactsList.swift */,
+				7122FDE1267A0CE700130D71 /* Numbers.swift */,
+				7122FDDF2679FFAE00130D71 /* ContactDetails.swift */,
+				7122FDE5267A51E700130D71 /* PhoneAndEmail.swift */,
+				7122FDDB2678E06400130D71 /* DataManager.swift */,
+				7122FDDD2679037C00130D71 /* ContactsModel.swift */,
 				7122FDD02678DF4400130D71 /* Assets.xcassets */,
 				7122FDD52678DF4400130D71 /* Info.plist */,
 				7122FDD22678DF4400130D71 /* Preview Content */,
@@ -139,6 +157,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7122FDCF2678DF4300130D71 /* ContentView.swift in Sources */,
+				7122FDE02679FFAE00130D71 /* ContactDetails.swift in Sources */,
+				7122FDE2267A0CE700130D71 /* Numbers.swift in Sources */,
+				7122FDE6267A51E700130D71 /* PhoneAndEmail.swift in Sources */,
+				7122FDDC2678E06400130D71 /* DataManager.swift in Sources */,
+				7122FDE4267A4AAB00130D71 /* ContactsList.swift in Sources */,
+				7122FDDE2679037C00130D71 /* ContactsModel.swift in Sources */,
 				7122FDCD2678DF4300130D71 /* ContactsListSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
